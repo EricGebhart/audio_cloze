@@ -26,10 +26,20 @@ Contact: e.a.gebhart at gmail.com
 Github: https://github.com/EricGebhart/audio_cloze.git
 
 Description: Changes the behavior of clozes which contain audio to be
-            consistent with the behavior of text within clozes. ie. The non
-            visible clozes do not make any sound.  If an audio hint is desired
+            consistent with the behavior of purely textual clozes.
+
+            ie. Inactive clozes do not make any sound.  If an audio hint is desired
             for a cloze, place the audio in the hint for that cloze. Multiple
             sounds can be added to the answer or the hint.
+
+            With this addon inactive clozes do not make any sound. If an audio hint
+            is desired for a cloze, place the audio in the hint for that cloze.
+            Multiple sounds can be added to the answer or the hint.
+
+            The result is absolute control over the sounds played by any card
+            generated from a multi cloze note.
+
+            This addon works very well in combination with Awesome TTS.
 """
 
 from anki import template
